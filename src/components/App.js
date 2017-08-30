@@ -7,7 +7,12 @@ class App extends Component {
 
   render() {
     return (
+
       <div>
+      <header>
+        <h1>Welcome to the NASA Rover</h1>
+        <h4>Select a rover</h4>
+      </header>
         <GetImageForm />
       </div>
     );

@@ -5,15 +5,13 @@ class ImageDisplay extends Component {
     let photos =this.props.images
     let images = photos.map((photo)=>{
       return (
-          <ul>
-            <li key ={photo.id}>
-              <img src={photo.img_src}/>
-            </li>
-          </ul>
+          <div className="imageCard">
+              <img key ={photo.id} src={photo.img_src}/>
+          </div>
       )
     })
     return(
-    <div>
+    <div className="cardGroup">
       {images}
     </div>
     )

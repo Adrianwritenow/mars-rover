@@ -2,4 +2,75 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  /*background-image: url('http://www.themillis.com/wp-content/uploads/2017/06/Mission-to-Mars.jpg');*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+}
+
+.roverForm{
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 1px 200px 0 orange;
+}
+
+.cardGroup{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header{
+  color: white;
+  text-align: center;
+  background-image: url('http://www.themillis.com/wp-content/uploads/2017/06/Mission-to-Mars.jpg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.imageCard{
+  background-color: white;
+  padding:10px;
+}
+
+.formSelect {
+  background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+ height: 29px;
+ overflow: hidden;
+ width: 240px;
+}
+
+.formSelect select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+}
+
+.formSelect.slate {
+   background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+   height: 34px;
+   width: 240px;
+   margin-top: 9px;
+}
+
+.roverForm{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label{
+  margin-top: 15px;
 }
